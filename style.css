@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(165, 201, 204);
+}
+
+header{
+    text-align: center;
+}
+span.grande{
+    font-size: 70px;
+}
+span.azul{
+    color: blue;
+}
+
+p.uno {
+    text-align: center;
+    color: blue;
+}
+
+p.dos::first-line{
+    color: red;
+}
+
+a:active{
+    color: red;
+    background-color: yellow;
+}
+
+a.link:visited{
+    background-color: blue;
+    color: white;
+}
+a.link:link{
+    background-color: white;
+    color: blue;
+}
+p.derecha {
+    text-align: right;
+}
